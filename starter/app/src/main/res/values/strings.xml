@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ShoeStore</string>
+    <string name="authentication">Authentication</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="havefun">Have fun!</string>
+    <string name="cont">Continue</string>
+    <string name="instruction1">By using this app, you can browse the shoes list.</string>
+    <string name="instruction2">The functionality to add new shoes is also available in the shoe details screen.</string>
 </resources>

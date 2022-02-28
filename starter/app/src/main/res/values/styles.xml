@@ -16,4 +16,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="TextViewStyle">
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
 </resources>
