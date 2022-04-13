@@ -9,8 +9,11 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.R
 import com.udacity.shoestore.databinding.FragmentInstructionsBinding
+import com.udacity.shoestore.screens.shoelist.ShoeListFragment
+import com.udacity.shoestore.screens.welcome.WelcomeFragmentDirections
 
 class InstructionsFragment : Fragment() {
 
@@ -33,7 +36,8 @@ class InstructionsFragment : Fragment() {
     private fun setupEventListeners() {
         viewModel.continueEvent.observe(this, Observer { value ->
             if (value) {
-                Log.i("raz", "am apasat continue")
+                val action = InstructionsFragmentDirections.actionInstructionsFragmentToShoeListFragment()
+                findNavController().navigate(action)
             }
         })
     }

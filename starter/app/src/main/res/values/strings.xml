@@ -9,5 +9,13 @@
     <string name="havefun">Have fun!</string>
     <string name="cont">Continue</string>
     <string name="instruction1">By using this app, you can browse the shoes list.</string>
-    <string name="instruction2">The functionality to add new shoes is also available in the shoe details screen.</string>
+    <string name="instruction2">The functionality to add new shoes is also available in the shoe list screen.</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="company">Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+
 </resources>
