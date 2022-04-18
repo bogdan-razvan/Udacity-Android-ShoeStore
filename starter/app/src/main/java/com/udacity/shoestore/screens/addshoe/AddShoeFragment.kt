@@ -43,7 +43,7 @@ class AddShoeFragment : Fragment() {
 
         viewModel.cancelEvent.observe(this, Observer { value ->
             if (value) {
-                activity?.supportFragmentManager?.popBackStack()
+               findNavController().navigateUp()
             }
         })
     }
